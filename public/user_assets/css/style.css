@@ -1,0 +1,1195 @@
+@font-face {
+  font-family: "Avenir Next LT Pro md";
+  src: url("../font/AvenirNextLTPro-MediumCn.eot");
+  src: url("../font/AvenirNextLTPro-MediumCn.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/AvenirNextLTPro-MediumCn.woff2") format("woff2"),
+    url("../font/AvenirNextLTPro-MediumCn.woff") format("woff"),
+    url("../font/AvenirNextLTPro-MediumCn.ttf") format("truetype"),
+    url("../font/AvenirNextLTPro-MediumCn.svg#AvenirNextLTPro-MediumCn")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro cn";
+  src: url("../font/AvenirNextLTPro-Cn.eot");
+  src: url("../font/AvenirNextLTPro-Cn.eot?#iefix") format("embedded-opentype"),
+    url("../font/AvenirNextLTPro-Cn.woff2") format("woff2"),
+    url("../font/AvenirNextLTPro-Cn.woff") format("woff"),
+    url("../font/AvenirNextLTPro-Cn.ttf") format("truetype"),
+    url("../font/AvenirNextLTPro-Cn.svg#AvenirNextLTPro-Cn") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro bldcn";
+  src: url("../font/AvenirNextLTPro-BoldCn.eot");
+  src: url("../font/AvenirNextLTPro-BoldCn.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/AvenirNextLTPro-BoldCn.woff2") format("woff2"),
+    url("../font/AvenirNextLTPro-BoldCn.woff") format("woff"),
+    url("../font/AvenirNextLTPro-BoldCn.ttf") format("truetype"),
+    url("../font/AvenirNextLTPro-BoldCn.svg#AvenirNextLTPro-BoldCn")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro Bold";
+  src: url("../font/AvenirNextLTPro-Bold.eot");
+  src: url("../font/AvenirNextLTPro-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/AvenirNextLTPro-Bold.woff2") format("woff2"),
+    url("../font/AvenirNextLTPro-Bold.woff") format("woff"),
+    url("../font/AvenirNextLTPro-Bold.ttf") format("truetype"),
+    url("../font/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro Regular";
+  src: url("AvenirNextLTPro-Regular.eot");
+  src: url("../font/AvenirNextLTPro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/AvenirNextLTPro-Regular.woff2") format("woff2"),
+    url("../font/AvenirNextLTPro-Regular.woff") format("woff"),
+    url("../font/AvenirNextLTPro-Regular.ttf") format("truetype"),
+    url("../font/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d83f24;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+
+body {
+  font-family: "Avenir Next LT Pro md";
+}
+
+img {
+  max-width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.white {
+  color: #fff !important;
+}
+
+.black {
+  color: #000 !important;
+}
+
+.gray {
+  color: #c0bfbf !important;
+}
+
+.sitecolor {
+  color: #d83f24;
+}
+
+.ico {
+  width: 20px;
+  display: inline-block;
+}
+
+.regular {
+  font-family: "Avenir Next LT Pro Regular";
+}
+
+.bold {
+  font-family: "Avenir Next LT Pro Bold";
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+}
+
+.cur_po {
+  cursor: pointer;
+}
+
+.cus_an:hover {
+  color: #d83f24 !important;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #fff;
+  background: #d83f24;
+}
+
+::selection {
+  color: #fff;
+  background: #d83f24;
+}
+
+.frist-heading {
+  font-size: 50px;
+  color: #d83f24;
+  font-family: "Avenir Next LT Pro bold";
+  margin: 0;
+}
+
+.sec-heading {
+  font-size: 35px;
+  color: #253e47;
+  font-family: "Avenir Next LT Pro bold";
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+
+.third-heading {
+  font-size: 20px;
+  color: #253e47;
+  font-family: "Avenir Next LT Pro bold";
+  line-height: 35px;
+}
+
+/* <!-- Headet start  --> */
+
+.hdr-sub-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 25px 0px;
+}
+
+.logo-wrap .hdrlogo {
+  font-size: 25px;
+}
+
+.hdr-sub-wrap .menu-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin-right: 135px; */
+}
+
+.menu-ul li {
+  margin: 0px 25px;
+}
+
+.menu-ul li a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.hdr-sub-wrap .menu-ul li a:hover {
+  text-decoration: none;
+  color: #d83f24;
+}
+
+.hdr-left.logo-wrap img {
+  width: 100%;
+}
+
+.ul-counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* <!-- Headet end  --> */
+
+/* <!-- Hm banner start  --> */
+
+.hm-banner-wrap img {
+  width: 100%;
+}
+
+.hm-banner-wrap {
+  position: relative;
+}
+#hmban .owl-item .item {
+  background: #253e47 url("../image/banner-effect.png");
+  height: 680px;
+}
+
+.hm-banner-text-wrap .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hm-banner-text {
+  /* color: #fff; */
+  position: absolute;
+  z-index: 5;
+  top: 40%;
+  transform: translate(-0%, -40%);
+  border-radius: 15px;
+  text-align: left;
+  padding: 30px;
+  background: #fff;
+}
+
+.hm-banner-text h2 {
+  font-size: 40px;
+  font-family: "Avenir Next LT Pro bold";
+}
+
+.hm-banner-text p {
+  font-size: 45px;
+  margin: 0;
+  font-family: "Avenir Next LT Pro Regular";
+  line-height: 60px;
+}
+.highlighted {
+  color: #d83f24 !important;
+  font-weight: bold;
+}
+
+/* <!-- Hm banner end  --> */
+
+/* <!-- What we do  start --> */
+
+.wt-do-wrap {
+  padding: 90px 0px 0;
+}
+
+.wt-do-img {
+  padding: 30px 0px 0px 20px;
+}
+
+.wt-do-img img {
+  width: 100%;
+}
+
+.wt-do-text p {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Avenir Next LT Pro Regular";
+  margin-bottom: 20px;
+}
+
+/* <!-- What we do end --> */
+
+/* <!-- Maximize the value start--> */
+
+.max-v-container {
+  background: #f0f6f7;
+  padding: 100px 0px 110px;
+}
+
+.max-v-container p {
+  font-size: 20px;
+  line-height: 35px;
+  font-family: "Avenir Next LT Pro Regular";
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.max-v-container h3 {
+  margin-bottom: 20px;
+}
+
+.max-v-container p i,
+.flexible-tool-wrap p i,
+.benefitssec p i {
+  color: #d83f24;
+  width: 45px;
+  padding-top: 8px;
+  min-width: 45px;
+}
+
+/* <!-- Maximize the value end--> */
+
+/* <!-- Flexible tool start--> */
+
+.flexible-tool-wrap p {
+  font-size: 20px;
+  line-height: 35px;
+  font-family: "Avenir Next LT Pro Regular";
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.flexible-tool-wrap {
+  padding: 120px 0px 130px;
+}
+
+.flexible-tool-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.flexible-tool-img img {
+  width: 85%;
+}
+
+/* <!-- Flexible tool end--> */
+
+/* How it works section start */
+.howitworksec {
+  padding: 90px 0 90px;
+}
+
+.hdng-padd {
+  padding: 0 0 80px;
+}
+
+.rgtlist {
+  width: 50%;
+  float: right;
+  position: relative;
+  height: 100%;
+}
+
+.lftlist {
+  width: 50%;
+  float: left;
+  position: relative;
+  height: 100%;
+}
+
+.lftlist li,
+.rgtlist li {
+  /* margin-bottom: 108px; */
+  font-size: 15px;
+  list-style-type: none;
+}
+
+.listhdng {
+  font-size: 20px;
+  color: #253e47;
+  font-family: "Avenir Next LT Pro Bold";
+  margin-bottom: 15px;
+}
+
+/* How it works section end */
+
+/* Benefits section start */
+#benefits .parainfo {
+  margin-bottom: 5px;
+  display: inline-flex;
+}
+#benefits .parainfo i {
+  padding-top: 3px;
+}
+
+.benefitssec {
+  background: #f0f6f7;
+  padding: 90px 0;
+}
+.social-wrapper {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+.social-wrapper li a {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.box-style {
+  box-shadow: 0 8px 12px #ccc;
+  border-radius: 15px;
+  list-style-type: none;
+  transition: all 0.8s ease;
+  cursor: pointer;
+  max-width: 31.333% !important;
+}
+
+.box-style:hover {
+  transform: translateY(-10px);
+}
+
+.bene-hdng {
+  color: #d83f24;
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-family: "Avenir Next LT Pro Bold";
+}
+
+.parainfo {
+  font-size: 15px;
+  color: #000;
+  font-family: "Avenir Next LT Pro Regular";
+}
+
+.benefits-wrapper {
+  margin: 3rem 3rem 0 !important;
+  padding: 0;
+}
+
+/* Benefits section end */
+
+/*Our Cases section start*/
+#ourcases {
+  padding: 90px 0px;
+}
+
+/*Out Cases section end*/
+
+/* Our crowd section start */
+.crowdsec {
+  padding: 90px 0;
+  background-image: url(../image/comma.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-ico {
+  width: 205px;
+  height: 205px;
+  border-radius: 50%;
+  background: #f0f6f7;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.bg-ico img {
+  width: 125px !important;
+  height: 115px;
+  margin: auto;
+}
+
+#crowd-slider .item {
+  max-width: 80%;
+  background: #fff;
+  padding: 25px 40px;
+  box-shadow: 0 8px 12px #ccc;
+  margin: 50px auto;
+  border-radius: 15px;
+}
+
+#crowd-slider .owl-nav {
+  display: block !important;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin: -20px 0 0 !important;
+}
+
+#crowd-slider .owl-prev span {
+  display: none;
+}
+
+#crowd-slider .owl-prev {
+  background: url(../image/lftar.png) !important;
+  width: 43px;
+  height: 45px;
+  margin: 0 !important;
+  position: absolute;
+  left: 0;
+  background-size: 100%;
+}
+
+#crowd-slider .owl-next span {
+  display: none;
+}
+
+#crowd-slider .owl-next {
+  background: url(../image/rgtar.png) !important;
+  width: 43px;
+  height: 45px;
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  background-size: 100%;
+}
+
+/* Over Box start*/
+.box-wrapper ul {
+  list-style-type: none;
+  padding: 35px 0;
+  margin: 0;
+}
+.box-wrapper {
+  background-color: #d83f24;
+  padding: 30px;
+  box-shadow: 0 -10px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+.box-wrapper ul li {
+  flex: 0 0 25%;
+  border-right: 1px solid #fff;
+}
+.box-wrapper ul li:last-child {
+  border-right: 0;
+}
+.box-wrapper a:hover {
+  text-decoration: none;
+}
+#over-box {
+  position: absolute;
+  width: 100%;
+  bottom: -60px;
+  z-index: 3;
+}
+.myaccordion {
+  box-shadow: 0 8px 12px #ccc;
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 35px;
+}
+.card-header {
+  background: transparent !important;
+}
+.card-header:first-child {
+  border-radius: 0 !important;
+}
+.card {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+.card .btn-link {
+  color: #d83f24 !important;
+}
+.card:hover .card-header {
+  background: #f0f6f7 !important;
+}
+.btn-link {
+  text-decoration: none !important;
+}
+#accordion .collapsed .fa-minus {
+  display: none;
+}
+#accordion .collapsed .fa-plus {
+  display: block !important;
+}
+#accordion .fa-plus {
+  display: none;
+}
+
+/* Our crowd section end */
+/* About us section start */
+.crowd-img {
+  width: 300px;
+  margin: 20px 0;
+}
+
+.brdr-hdng {
+  font-size: 11pt;
+  padding: 10px 20px;
+  border: 2px solid #253e47;
+  color: #253e47;
+  text-transform: uppercase;
+  font-family: "Avenir Next LT Pro Bold";
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.ab-ctnt {
+  font-family: "Avenir Next LT Pro Regular";
+  font-size: 20px;
+  color: #253e47;
+}
+
+#aboutus .ab-ctnt {
+  font-size: 11pt;
+}
+
+/* About section end */
+/* Footer section start */
+.black-bg {
+  background: #000;
+}
+.footersec {
+  background: #253e47;
+  padding: 90px 0;
+}
+
+.footersec .brdr-hdng {
+  font-size: 25px;
+  border-color: #fff;
+  margin: 0;
+}
+
+.ftr-menu li {
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+
+.ftr-menu li a:hover {
+  text-decoration: none;
+  color: #d83f24 !important;
+}
+
+.ftrhdng {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Avenir Next LT Pro Bold";
+  margin-bottom: 20px;
+}
+
+.sitename {
+  font-family: "Avenir Next LT Pro Bold";
+  margin: 5px 0;
+  display: inline-block;
+}
+
+.footersec .detail-wrapper a {
+  text-decoration: none;
+}
+
+.ftrlogo:hover {
+  cursor: pointer;
+  background: #d83f24;
+}
+
+/* Footer section end */
+/* CTA button css */
+.modal-content .cus_hdng_ctc {
+  font-size: 24px;
+}
+
+.ctabtn {
+  background: #d83f24 !important;
+  color: #fff !important;
+  /* position: fixed; */
+  right: 0;
+  z-index: 99;
+  padding: 3px 5px 3px 15px !important;
+  border-radius: 50px !important;
+  top: 25px;
+  font-weight: 600 !important;
+  /* transition: all 0.5s ease !important; */
+}
+
+.ctabtn:hover {
+  background: #253e47 !important;
+}
+
+.ctabtn .ico {
+  background: #fff;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #000;
+}
+
+/* CTA button end */
+/* Modal css start*/
+.bg-red {
+  background: #d83f24;
+}
+
+.modal-body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.sprinthdng {
+  font-size: 30px;
+}
+
+.ctchdng {
+  font-size: 40px;
+  font-family: "Avenir Next LT Pro Regular";
+}
+
+.cus_padd {
+  padding: 80px 50px !important;
+}
+
+.modal-dialog {
+  max-width: 890px !important;
+}
+
+.modal-content {
+  border-radius: 0 !important;
+  border: 0 !important;
+}
+
+.rqsthdng {
+  font-size: 20px;
+}
+
+.cus_paddtwo {
+  padding: 55px 50px !important;
+}
+
+.modal-content .sitename {
+  margin: 0;
+}
+
+.ctcfrm .form-control {
+  border: 0;
+  border-bottom: 1px solid #a5a5a5;
+  border-radius: 0;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #d83f24 !important;
+  background: #d83f24 !important;
+}
+
+.sendbtn {
+  width: 112px;
+  height: 40px;
+  border-radius: 50px !important;
+  background: #d83f24 !important;
+  border: 0 !important;
+}
+
+.sendbtn:hover {
+  background: #253e47 !important;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 0.2rem rgba(255, 84, 61, 0.25) !important;
+}
+
+.form-control:focus {
+  border-color: #d83f24 !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.modal-content .phone-wrapper,
+.modal-content .email-wrapper {
+  margin: 5px 0;
+}
+
+.cus_size {
+  font-size: 15px;
+}
+
+.custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+  border-color: #d83f24 !important;
+}
+
+.modal-content .detail-wrapper a:hover {
+  text-decoration: none;
+  color: #253e47 !important;
+}
+
+.cus_bgbg {
+  background: rgba(41, 79, 88, 0.7) !important;
+  z-index: 999999999999 !important;
+}
+
+.contact-detail-wrapper .sprinthdng {
+  font-size: 18px;
+  color: #253e47;
+}
+
+/* Modal css end */
+.hamburger-ico {
+  display: none;
+}
+
+/* Responsive Layout */
+@media (max-width: 767px) {
+  .hm-banner-text-wrap {
+    position: static;
+  }
+
+  .hm-banner-text h2 {
+    font-size: 20px;
+  }
+
+  .hm-banner-text p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .hm-banner-text {
+    padding: 30px 20px;
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .frist-heading {
+    font-size: 25px;
+  }
+
+  .wt-do-text p {
+    line-height: 25px;
+  }
+
+  .wt-do-wrap {
+    padding: 30px 0 0;
+    width: 100%;
+  }
+
+  .howitworksec {
+    padding: 30px 0;
+    width: 100%;
+  }
+
+  .lftlist {
+    padding-left: 0;
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .max-v-container p i,
+  .flexible-tool-wrap p i,
+  .benefitssec p i {
+    min-width: 25px;
+    width: auto;
+  }
+
+  #aboutus .ab-ctnt,
+  #ourcases .ab-ctnt {
+    margin: 30px 0 !important;
+  }
+
+  #benefits .parainfo {
+    font-size: 14px;
+  }
+
+  .rgtlist {
+    height: auto;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .lftlist li,
+  .rgtlist li {
+    position: static !important;
+  }
+
+  .max-v-container {
+    padding: 30px 0;
+    width: 100%;
+  }
+
+  .sec-heading {
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 25px;
+  }
+
+  .max-v-container p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .flexible-tool-wrap {
+    padding: 30px 0;
+    width: 100%;
+  }
+
+  .flexible-tool-wrap p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .hdng-padd {
+    padding: 0 0 30px;
+  }
+
+  .benefitssec {
+    padding: 30px 0;
+    width: 100%;
+  }
+
+  .benefits-wrapper {
+    margin: 30px 15px !important;
+  }
+
+  .box-style {
+    max-width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  .crowdsec {
+    padding: 30px 0 0;
+    width: 100%;
+  }
+
+  #ourcases {
+    padding: 30px 0;
+    width: 100%;
+  }
+
+  #crowd .w-75,
+  #howit .w-75 {
+    width: 100% !important;
+  }
+
+  .third-heading {
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+  #crowd-slider {
+    padding: 30px 0;
+    width: 100%;
+  }
+
+  #crowd-slider .owl-next {
+    background-size: 50% !important;
+    background-repeat: no-repeat !important;
+    text-align: right;
+    background-position: right !important;
+  }
+
+  #crowd-slider .owl-prev {
+    background-size: 50% !important;
+    background-repeat: no-repeat !important;
+    text-align: right;
+    background-position: left !important;
+  }
+
+  #crowd-slider .owl-nav {
+    margin: -55px 0 0 !important;
+  }
+
+  .footersec {
+    padding: 30px 0;
+    width: 100%;
+  }
+
+  .ftr-menu {
+    margin: 30px 0;
+    padding-left: 0;
+  }
+
+  .cus_padd {
+    padding: 30px 15px !important;
+  }
+
+  .cus_paddtwo {
+    padding: 30px 15px !important;
+  }
+
+  .modal-content .cus_hdng_ctc {
+    font-size: 16px;
+  }
+
+  .ctchdng {
+    font-size: 25px;
+  }
+
+  .sprinthdng {
+    font-size: 20px;
+  }
+
+  .modal-dialog {
+    width: 85% !important;
+    margin: 2.5rem auto !important;
+  }
+
+  .hdr-left {
+    text-align: center;
+    width: 60%;
+    float: left;
+  }
+
+  .hdr-left.logo-wrap img {
+    width: auto;
+  }
+
+  .hdr-sub-wrap {
+    margin: 0;
+    width: 100%;
+  }
+
+  .hdr-sub-wrap .menu-ul {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .menu-ul li a {
+    color: #fff;
+  }
+
+  .ctabtn {
+    top: 25%;
+  }
+
+  .hamburger-ico {
+    display: inline-block;
+  }
+
+  .hdr-right {
+    width: 100%;
+    padding: 25px 0px;
+    background: #d83f24;
+    margin-top: 25px;
+  }
+
+  .hamburger {
+    background: none;
+    position: relative;
+    top: 0px;
+    right: 0;
+    line-height: 0px;
+    padding: 0px;
+    color: #d83f24;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+  }
+
+  .cross {
+    background: none;
+    position: relative;
+    top: 30px;
+    right: 0px;
+    padding: 0px;
+    color: #d83f24;
+    border: 0;
+    font-size: 55px;
+    line-height: 0;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+  }
+
+  .hdr-sub-wrap {
+    margin: 0;
+  }
+
+  .hdr-sub-wrap .menu-ul li a:hover,
+  .hdr-sub-wrap .menu-ul li a:focus {
+    color: #fff;
+  }
+
+  .ctabtn {
+    font-size: 0 !important;
+    padding: 5px !important;
+  }
+
+  .ctabtn span {
+    font-size: 16px;
+  }
+
+  #aboutus .text-right {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hdr-sub-wrap {
+    margin: 0;
+  }
+
+  .menu-ul li {
+    margin: 0 10px;
+  }
+
+  .hdr-sub-wrap .menu-ul {
+    margin-right: 0;
+  }
+
+  .ctabtn {
+    top: 35%;
+  }
+
+  .listhdng {
+    font-size: 16px;
+    margin: -50px 0 0 0;
+  }
+
+  .lftlist li,
+  .rgtlist li {
+    font-size: 13px;
+  }
+
+  #crowd-slider .owl-next {
+    right: -35px;
+  }
+
+  #crowd-slider .owl-prev {
+    left: -35px;
+  }
+
+  .modal-dialog {
+    width: 90% !important;
+  }
+
+  .sprinthdng {
+    font-size: 25px;
+  }
+
+  .ctchdng {
+    font-size: 30px;
+  }
+
+  .box-style {
+    max-width: 100% !important;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal-open button.btn.ctabtn {
+    right: 10px;
+  }
+
+  .listhdng {
+    margin-top: -30px;
+  }
+}
